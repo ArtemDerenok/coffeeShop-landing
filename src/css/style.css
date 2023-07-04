@@ -439,4 +439,65 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.first-section__nav-container {
+  background-color: #f6ebda;
+  display: flex;
+  padding: 41px 135px 0 135px;
+  justify-content: space-between;
+}
+.first-section__box {
+  display: flex;
+  gap: 142px;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+.nav-menu__list {
+  display: flex;
+  gap: 32px;
+}
+.nav-menu__list-item {
+  color: #000;
+  font-size: 18px;
+  font-family: Poppins;
+  cursor: pointer;
+}
+.nav-menu__list-item:hover {
+  color: #ff902b;
+}
+
+.search-bar {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.search-bar__input {
+  all: unset;
+  box-sizing: border-box;
+  padding-left: 32px;
+  background: url("../icons/akar-icons-search.svg") no-repeat 7px white;
+  max-width: 222px;
+  height: 40px;
+  border-radius: 35px;
+  color: #929292;
+  font-size: 12px;
+  font-family: Poppins;
 }/*# sourceMappingURL=style.css.map */

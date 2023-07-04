@@ -1,3 +1,85 @@
 @import "./variables";
 @import "./normalize.scss";
 @import "./reset.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.first-section {
+  &__nav-container {
+    background-color: $COFFEE_BACKGROUND;
+    display: flex;
+    padding: 41px 135px 0 135px;
+    justify-content: space-between;
+  }
+
+  &__header {
+  }
+
+  &__box {
+    display: flex;
+    gap: 142px;
+  }
+
+  &__nav-menu {
+  }
+
+  &__search-bar {
+  }
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+
+  &__list {
+    display: flex;
+    gap: 32px;
+  }
+
+  &__list-item {
+    color: #000;
+    font-size: 18px;
+    font-family: Poppins;
+    cursor: pointer;
+
+    &:hover {
+      color: $ORANGE;
+    }
+  }
+}
+
+.search-bar {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+
+  &__input {
+    all: unset;
+    box-sizing: border-box;
+    padding-left: 32px;
+    background: url("../icons/akar-icons-search.svg") no-repeat 7px white;
+    max-width: 222px;
+    height: 40px;
+    border-radius: 35px;
+    color: $GRAY;
+    font-size: 12px;
+    font-family: Poppins;
+  }
+
+  &__logo {
+  }
+}
