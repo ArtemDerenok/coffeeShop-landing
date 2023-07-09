@@ -246,3 +246,112 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.second-section {
+  &__first-box {
+    background-color: $COFFEE_BACKGROUND;
+    height: 335px;
+  }
+
+  &__title {
+    padding-left: 135px;
+    margin-bottom: 38px;
+    div {
+      position: absolute;
+      height: 4px;
+      width: 65px;
+      left: 266px;
+      border-radius: 12px;
+      background-color: $ORANGE;
+    }
+  }
+
+  &__card-container {
+    position: relative;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    background-image: url("../img/rectangle-2.svg");
+    background-repeat: no-repeat;
+    background-position: top 90px center;
+    height: 465px;
+  }
+}
+
+.title {
+  font-family: "Poppins";
+  font-size: 32px;
+  font-weight: 600;
+  position: relative;
+}
+
+.card {
+  position: relative;
+  z-index: 10;
+  background-color: white;
+  position: relative;
+  width: 343px;
+  height: 373px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 12px;
+  gap: 19px;
+
+  &__rating-label {
+    position: absolute;
+    top: 22px;
+    left: 22px;
+    height: 26px;
+    padding: 10px;
+  }
+
+  &__card-img {
+    border-radius: 5px;
+  }
+
+  &__card-box-one {
+    width: 307px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Poppins";
+    font-size: 24px;
+    color: $BROWN;
+
+    h3 {
+      font-weight: 600;
+    }
+
+    p {
+      font-weight: 700;
+    }
+  }
+
+  &__card-box-two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 307px;
+  }
+
+  &__label-box {
+    display: flex;
+    gap: 24px;
+  }
+
+  &__label {
+    padding: 10px;
+    border: 3px solid $ORANGE;
+    border-radius: 5px;
+    color: $ORANGE;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  &__basket {
+    width: 43px;
+    height: 43px;
+  }
+}
