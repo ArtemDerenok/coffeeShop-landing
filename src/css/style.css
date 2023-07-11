@@ -652,6 +652,14 @@ table {
   background-position: center;
 }
 
+.second-section {
+  margin-bottom: 300px;
+}
+.second-section__img-background {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
 .second-section__first-box {
   background-color: #f6ebda;
   height: 335px;
@@ -671,6 +679,7 @@ table {
 .second-section__card-container {
   position: relative;
   display: flex;
+  flex-wrap: wrap;
   gap: 50px;
   justify-content: center;
   background-image: url("../img/rectangle-2.svg");
@@ -746,4 +755,57 @@ table {
 .card__basket {
   width: 43px;
   height: 43px;
+}
+
+.third-section__title {
+  padding-left: 135px;
+  margin-bottom: 38px;
+}
+.third-section__title div {
+  position: absolute;
+  height: 4px;
+  width: 115px;
+  left: 452px;
+  border-radius: 12px;
+  background-color: #ff902b;
+}
+.third-section__instruction-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.instruction-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 370px;
+  height: 290px;
+  gap: 30px;
+}
+.instruction-item__title {
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 600;
+}
+.instruction-item__text {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 400;
+}
+.instruction-item__box-one {
+  position: relative;
+}
+.instruction-item__box-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.instruction-item__img-cursor {
+  position: absolute;
+  z-index: 10;
+  top: 114px;
+  left: 96px;
 }/*# sourceMappingURL=style.css.map */

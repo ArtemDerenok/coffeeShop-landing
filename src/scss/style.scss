@@ -248,6 +248,13 @@
 }
 
 .second-section {
+  margin-bottom: 300px;
+  &__img-background {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
   &__first-box {
     background-color: $COFFEE_BACKGROUND;
     height: 335px;
@@ -269,6 +276,7 @@
   &__card-container {
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     gap: 50px;
     justify-content: center;
     background-image: url("../img/rectangle-2.svg");
@@ -353,5 +361,69 @@
   &__basket {
     width: 43px;
     height: 43px;
+  }
+}
+
+.third-section {
+  &__title {
+    padding-left: 135px;
+    margin-bottom: 38px;
+    div {
+      position: absolute;
+      height: 4px;
+      width: 115px;
+      left: 452px;
+      border-radius: 12px;
+      background-color: $ORANGE;
+    }
+  }
+
+  &__instruction-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.instruction-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 370px;
+  height: 290px;
+  gap: 30px;
+
+  &__title {
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  &__text {
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  &__box-one {
+    position: relative;
+  }
+
+  &__box-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  &__img {
+  }
+
+  &__img-cursor {
+    position: absolute;
+    z-index: 10;
+    top: 114px;
+    left: 96px;
   }
 }
