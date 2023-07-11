@@ -80,7 +80,7 @@
     font-size: 18px;
     font-family: "Poppins";
     font-weight: 400;
-    color: $GRAY;
+    color: $GRAY_LIGHT;
     margin-bottom: 32px;
   }
 
@@ -184,7 +184,7 @@
     max-width: 222px;
     height: 40px;
     border-radius: 35px;
-    color: $GRAY;
+    color: $GRAY_LIGHT;
     font-size: 12px;
     font-family: "Poppins";
   }
@@ -365,6 +365,8 @@
 }
 
 .third-section {
+  margin-bottom: 208px;
+
   &__title {
     padding-left: 135px;
     margin-bottom: 38px;
@@ -429,10 +431,25 @@
 }
 
 .fourth-section {
+  &__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: $COFFEE_BACKGROUND;
+    height: 484px;
+  }
+
+  &__img {
+    box-shadow: 0px 0px 0px 4px lightgray;
+    border-radius: 16px;
+    transform: translate(0, -45px);
+  }
+
   &__title {
     font-family: "Poppins";
     font-size: 32px;
     font-weight: 600;
+    margin-bottom: 23px;
     div {
       position: absolute;
       height: 4px;
@@ -441,5 +458,37 @@
       border-radius: 12px;
       background-color: $ORANGE;
     }
+  }
+
+  &__subtitle {
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 600;
+    max-width: 348px;
+    margin-bottom: 16px;
+    line-height: normal;
+    letter-spacing: 0.96px;
+  }
+
+  &__text {
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 400;
+    color: $GRAY;
+    max-width: 478px;
+    line-height: normal;
+    letter-spacing: 0.72px;
+    margin-bottom: 32px;
+  }
+
+  &__box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__btn {
+    max-width: 142px;
   }
 }
