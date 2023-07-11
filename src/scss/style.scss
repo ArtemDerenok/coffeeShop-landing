@@ -427,3 +427,19 @@
     left: 96px;
   }
 }
+
+.fourth-section {
+  &__title {
+    font-family: "Poppins";
+    font-size: 32px;
+    font-weight: 600;
+    div {
+      position: absolute;
+      height: 4px;
+      width: 35px;
+      left: 105px;
+      border-radius: 12px;
+      background-color: $ORANGE;
+    }
+  }
+}

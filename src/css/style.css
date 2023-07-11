@@ -808,4 +808,18 @@ table {
   z-index: 10;
   top: 114px;
   left: 96px;
+}
+
+.fourth-section__title {
+  font-family: "Poppins";
+  font-size: 32px;
+  font-weight: 600;
+}
+.fourth-section__title div {
+  position: absolute;
+  height: 4px;
+  width: 35px;
+  left: 105px;
+  border-radius: 12px;
+  background-color: #ff902b;
 }/*# sourceMappingURL=style.css.map */
