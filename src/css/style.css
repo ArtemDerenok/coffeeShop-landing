@@ -610,6 +610,7 @@ table {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
+  box-shadow: 0px 0px 10px 1px rgb(238, 240, 242);
 }
 
 .btn-order {
@@ -650,6 +651,7 @@ table {
   background-image: url("../icons/basket.svg");
   background-repeat: no-repeat;
   background-position: center;
+  cursor: pointer;
 }
 
 .second-section {
@@ -693,6 +695,8 @@ table {
   font-size: 32px;
   font-weight: 600;
   position: relative;
+  line-height: normal;
+  letter-spacing: 1.28px;
 }
 
 .card {
@@ -708,6 +712,15 @@ table {
   align-items: center;
   border-radius: 12px;
   gap: 19px;
+  box-shadow: 0px 5px 10px 2px rgba(39, 99, 144, 0.2);
+}
+.card__text {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  color: #7e7d7a;
 }
 .card__rating-label {
   position: absolute;
@@ -821,7 +834,7 @@ table {
   height: 484px;
 }
 .fourth-section__img {
-  box-shadow: 0px 0px 0px 4px lightgray;
+  box-shadow: 0px 5px 10px 2px rgba(39, 99, 144, 0.2);
   border-radius: 16px;
   transform: translate(0, -45px);
 }
@@ -866,4 +879,29 @@ table {
 }
 .fourth-section__btn {
   max-width: 142px;
+}
+
+.five-section__container {
+  padding: 120px 152px 120px 152px;
+}
+.five-section__title {
+  font-family: "Poppins";
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 53px;
+}
+.five-section__title div {
+  position: absolute;
+  height: 4px;
+  width: 115px;
+  left: 246px;
+  top: 42px;
+  border-radius: 12px;
+  background-color: #ff902b;
+}
+.five-section__cards-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 46px;
 }/*# sourceMappingURL=style.css.map */
