@@ -969,4 +969,50 @@ table {
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0.56px;
+}
+
+.seventh-section__container {
+  padding: 120px 135px 120px 135px;
+}
+.seventh-section__wrapper {
+  background-image: url("../img/subscribe-back.png");
+  background-repeat: no-repeat;
+  border-radius: 24px;
+  background-size: cover;
+  max-width: 1170px;
+  height: 392px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.seventh-section__title {
+  color: white;
+  font-family: "Poppins";
+  font-size: 32px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.28px;
+}
+.seventh-section__input-box {
+  position: relative;
+}
+.seventh-section__input {
+  all: unset;
+  width: 484px;
+  height: 54px;
+  border-radius: 42px;
+  background-color: white;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.64px;
+  padding-left: 16px;
+}
+.seventh-section__btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
 }/*# sourceMappingURL=style.css.map */

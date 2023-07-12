@@ -623,3 +623,56 @@
     letter-spacing: 0.56px;
   }
 }
+
+.seventh-section {
+  &__container {
+    padding: 120px 135px 120px 135px;
+  }
+
+  &__wrapper {
+    background-image: url("../img/subscribe-back.png");
+    background-repeat: no-repeat;
+    border-radius: 24px;
+    background-size: cover;
+    max-width: 1170px;
+    height: 392px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__title {
+    color: white;
+    font-family: "Poppins";
+    font-size: 32px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.28px;
+  }
+
+  &__input-box {
+    position: relative;
+  }
+
+  &__input {
+    all: unset;
+    width: 484px;
+    height: 54px;
+    border-radius: 42px;
+    background-color: white;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.64px;
+    padding-left: 16px;
+  }
+
+  &__btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+  }
+}
