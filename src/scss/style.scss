@@ -541,3 +541,85 @@
     gap: 46px;
   }
 }
+
+.sixth-section {
+  &__container {
+    position: relative;
+  }
+
+  &__left-box {
+    max-width: 945px;
+    height: 484px;
+    background: $COFFEE_BACKGROUND;
+    border-radius: 0px 24px 24px 0px;
+    display: flex;
+    align-items: center;
+    padding-left: 136px;
+  }
+
+  &__right-box {
+  }
+
+  &__box-one {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  &__title {
+  }
+
+  &__text {
+    color: $GRAY;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 352px;
+  }
+
+  &__cards {
+    position: absolute;
+    top: 102px;
+    left: 40%;
+    display: flex;
+    gap: 93px;
+  }
+}
+
+.card-people {
+  position: relative;
+  &__img {
+  }
+
+  &__box-one {
+    position: absolute;
+    bottom: 23px;
+    left: 30px;
+    background: $ORANGE_LIGHT;
+    border: 6px solid rgba(255, 211, 144, 0.62);
+    border-radius: 8px;
+    width: 226px;
+    height: 86px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 6px;
+  }
+
+  &__title {
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.72px;
+  }
+
+  &__text {
+    font-family: "Poppins";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.56px;
+  }
+}
