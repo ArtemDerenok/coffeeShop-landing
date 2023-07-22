@@ -23,6 +23,40 @@
   position: relative;
 }
 
+.mobile-menu {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  right: -100%;
+  z-index: 110;
+  background-color: $ORANGE_LIGHT;
+  transition: 1s all;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__list-item {
+    color: #000;
+    font-size: 28px;
+    font-family: "Poppins";
+    cursor: pointer;
+    font-weight: 600;
+
+    &:hover {
+      color: $ORANGE;
+    }
+  }
+}
+
+.mobile-menu_active {
+  right: 0;
+}
 .first-section {
   overflow: hidden;
   &__img-background {
@@ -804,6 +838,39 @@
 }
 
 @media (max-width: 790px) {
+  .hamburger {
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    height: 14px;
+    z-index: 100;
+    span {
+      height: 2px;
+      width: 100%;
+      display: block;
+      background: black;
+      transition: 0.5s all;
+    }
+    &_active {
+      span {
+        margin-bottom: -6px;
+        &:nth-child(1) {
+          transform: translateY(3px) rotate(-45deg);
+        }
+        &:nth-child(2) {
+          display: none;
+        }
+        &:nth-child(3) {
+          transform: translateY(3px) rotate(45deg);
+        }
+      }
+    }
+  }
+
   .second-section {
     overflow: hidden;
   }
@@ -918,6 +985,9 @@
     &__input {
       width: 290px;
     }
+  }
+  .card-people__box-one {
+    left: 0;
   }
 }
 
