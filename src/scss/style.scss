@@ -288,7 +288,7 @@
 
 .second-section {
   overflow: hidden;
-  margin-bottom: 300px;
+  margin-bottom: 50px;
   &__img-background {
     position: absolute;
     left: 0;
@@ -297,7 +297,7 @@
 
   &__first-box {
     background-color: $COFFEE_BACKGROUND;
-    height: 335px;
+    padding-bottom: 50px;
   }
 
   &__title {
@@ -307,7 +307,7 @@
       position: absolute;
       height: 4px;
       width: 65px;
-      left: 266px;
+      left: 278px;
       border-radius: 12px;
       background-color: $ORANGE;
     }
@@ -428,7 +428,7 @@
       position: absolute;
       height: 4px;
       width: 115px;
-      left: 452px;
+      left: 481px;
       border-radius: 12px;
       background-color: $ORANGE;
     }
@@ -626,6 +626,8 @@
 .card-people {
   position: relative;
   &__img {
+    width: 227px;
+    height: 292px;
   }
 
   &__box-one {

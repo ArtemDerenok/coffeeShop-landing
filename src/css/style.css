@@ -691,7 +691,7 @@ table {
 
 .second-section {
   overflow: hidden;
-  margin-bottom: 300px;
+  margin-bottom: 50px;
 }
 .second-section__img-background {
   position: absolute;
@@ -700,7 +700,7 @@ table {
 }
 .second-section__first-box {
   background-color: #f6ebda;
-  height: 335px;
+  padding-bottom: 50px;
 }
 .second-section__title {
   padding-left: 135px;
@@ -710,7 +710,7 @@ table {
   position: absolute;
   height: 4px;
   width: 65px;
-  left: 266px;
+  left: 278px;
   border-radius: 12px;
   background-color: #ff902b;
 }
@@ -817,7 +817,7 @@ table {
   position: absolute;
   height: 4px;
   width: 115px;
-  left: 452px;
+  left: 481px;
   border-radius: 12px;
   background-color: #ff902b;
 }
@@ -977,6 +977,10 @@ table {
 
 .card-people {
   position: relative;
+}
+.card-people__img {
+  width: 227px;
+  height: 292px;
 }
 .card-people__box-one {
   position: absolute;
